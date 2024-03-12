@@ -1,3 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", "sans-serif";
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-items: center;
+  background-color: #282828;
+}
+
+.card-container {
+  background-color: white;
+  width: 25%;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  border-radius: 1.5%;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  background-color: rgb(238, 238, 238);
+}
 
 
+.bg-image img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  object-fit: cover;
+}
+
+.profile-background img {
+  position: relative;
+  z-index: 1;
+  display: block;
+  bottom: 110%;
+  margin-bottom: -20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+.profile-bio {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.profile-bio h2 {
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -15%;
+  padding-bottom: 1%;
+}
+
+.profile-info p {
+  padding: 2%;
+}
+
+.social-links {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.social-links a {
+  padding: 0% 5%;
+  font-size: 2rem;
+  color: #ED1ABE;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #31006B;
+  transform: scale(1.5);
+  text-decoration: none;
+}
 /*# sourceMappingURL=styles.css.map */
